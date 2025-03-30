@@ -13,7 +13,6 @@ export const AddComponent = (props) => {
         setValue("");
         obj = {};
     }
-    let i = list.length +1;
     const getRandomEven = (min, max) => {
         let num;
         do {
@@ -25,7 +24,7 @@ export const AddComponent = (props) => {
         return {
             id : getRandomEven(1,10000000),
             name : value,
-            index : i
+
         }
     }
 

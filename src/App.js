@@ -10,7 +10,7 @@ function App() {
         <div className="App-header">Todo List</div>
         <AddComponent list={todolist} setList={setTodoList} />
 
-        <ListComponent ds={todolist} />
+        <ListComponent ds={todolist} setList={setTodoList}/>
     </div>
   );
 }
